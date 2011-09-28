@@ -1,0 +1,5 @@
+ObjectMapper is a library created to make it easy to map NSDictionary and NSArray types (usually returned from parsing json data) into Custom user objects (Employee, Course, Window, etc).
+
+The usage of the library is easy, please see ObjectMapperTester https://github.com/MuhammadHewedy/ObjectMapper/tree/master/ObjectMapperTester for sample usage.
+
+// TODO add more documentation about the library
