@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F27BA53C1430962100FD9A88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27BA53B1430962100FD9A88 /* Foundation.framework */; };
+		F27BA5431430962100FD9A88 /* ObjectMapper.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F27BA5421430962100FD9A88 /* ObjectMapper.1 */; };
+		F27E7D0E1432F3140055E7D5 /* ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E7D0D1432F3140055E7D5 /* ObjectMapper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F27BA5351430962100FD9A88 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F27BA5431430962100FD9A88 /* ObjectMapper.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F27BA5371430962100FD9A88 /* ObjectMapper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectMapper; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27BA53B1430962100FD9A88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F27BA5411430962100FD9A88 /* ObjectMapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-Prefix.pch"; sourceTree = "<group>"; };
+		F27BA5421430962100FD9A88 /* ObjectMapper.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ObjectMapper.1; sourceTree = "<group>"; };
+		F27E7D0C1432F3140055E7D5 /* ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMapper.h; sourceTree = "<group>"; };
+		F27E7D0D1432F3140055E7D5 /* ObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMapper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F27BA5341430962100FD9A88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27BA53C1430962100FD9A88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F27BA52C1430962000FD9A88 = {
+			isa = PBXGroup;
+			children = (
+				F27BA53D1430962100FD9A88 /* ObjectMapper */,
+				F27BA53A1430962100FD9A88 /* Frameworks */,
+				F27BA5381430962100FD9A88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F27BA5381430962100FD9A88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F27BA5371430962100FD9A88 /* ObjectMapper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F27BA53A1430962100FD9A88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F27BA53B1430962100FD9A88 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F27BA53D1430962100FD9A88 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				F27E7D0C1432F3140055E7D5 /* ObjectMapper.h */,
+				F27E7D0D1432F3140055E7D5 /* ObjectMapper.m */,
+				F27BA5421430962100FD9A88 /* ObjectMapper.1 */,
+				F27BA5401430962100FD9A88 /* Supporting Files */,
+			);
+			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		F27BA5401430962100FD9A88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F27BA5411430962100FD9A88 /* ObjectMapper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F27BA5361430962100FD9A88 /* ObjectMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27BA5461430962100FD9A88 /* Build configuration list for PBXNativeTarget "ObjectMapper" */;
+			buildPhases = (
+				F27BA5331430962100FD9A88 /* Sources */,
+				F27BA5341430962100FD9A88 /* Frameworks */,
+				F27BA5351430962100FD9A88 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectMapper;
+			productName = ObjectMapper;
+			productReference = F27BA5371430962100FD9A88 /* ObjectMapper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F27BA52E1430962000FD9A88 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F27BA5311430962000FD9A88 /* Build configuration list for PBXProject "ObjectMapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F27BA52C1430962000FD9A88;
+			productRefGroup = F27BA5381430962100FD9A88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F27BA5361430962100FD9A88 /* ObjectMapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F27BA5331430962100FD9A88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27E7D0E1432F3140055E7D5 /* ObjectMapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F27BA5441430962100FD9A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F27BA5451430962100FD9A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F27BA5471430962100FD9A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectMapper/ObjectMapper-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F27BA5481430962100FD9A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectMapper/ObjectMapper-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F27BA5311430962000FD9A88 /* Build configuration list for PBXProject "ObjectMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27BA5441430962100FD9A88 /* Debug */,
+				F27BA5451430962100FD9A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27BA5461430962100FD9A88 /* Build configuration list for PBXNativeTarget "ObjectMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27BA5471430962100FD9A88 /* Debug */,
+				F27BA5481430962100FD9A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F27BA52E1430962000FD9A88 /* Project object */;
+}
