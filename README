@@ -3,3 +3,7 @@ ObjectMapper is a library created to make it easy to map NSDictionary and NSArra
 The usage of the library is easy, please see ObjectMapperTester https://github.com/MuhammadHewedy/ObjectMapper/tree/master/ObjectMapperTester for sample usage.
 
 // TODO add more documentation about the library
+
+*** Note ***
+the function: getPropertyType at: https://github.com/MuhammadHewedy/ObjectMapper/blob/master/ObjectMapper/ObjectMapper/ObjectMapper.m
+need to change in order to OM to work on iOS7
