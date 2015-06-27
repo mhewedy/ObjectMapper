@@ -7,3 +7,5 @@ The usage of the library is easy, please see ObjectMapperTester https://github.c
 *** Note ***
 the function: getPropertyType at: https://github.com/MuhammadHewedy/ObjectMapper/blob/master/ObjectMapper/ObjectMapper/ObjectMapper.m
 need to change in order to OM to work on iOS7
+
+Join the chat at https://gitter.im/MuhammadHewedy/ObjectMapper
